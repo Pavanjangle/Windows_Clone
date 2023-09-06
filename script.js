@@ -46,25 +46,3 @@ iconstore.addEventListener("click", openLink5);
 
 
 
-const homePage = document.getElementById("home");
-const refreshBar = document.getElementById("refresh-bar");
-
-// Function to show the refresh bar
-function showRefreshBar(event) {
-    event.preventDefault(); // Prevent the default context menu
-
-    // Calculate and set the refresh bar position based on the mouse click
-    refreshBar.style.top = event.clientY + "px";
-    refreshBar.style.left = event.clientX + "px";
-
-    // Show the refresh bar
-    refreshBar.style.display = "flex";
-}
-
-// Add a right-click event listener to the home page
-homePage.addEventListener("contextmenu", showRefreshBar);
-
-// Hide the refresh bar when clicking anywhere else on the page
-document.addEventListener("click", function () {
-    refreshBar.style.display = "none";
-});
