@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url("bg.jpeg");
+    background-size: cover;
+    overflow: hidden;
+  
+   
+    
+
+}
+
+.taskbar {
+    background-color: #f3f3f3;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.tasbar-img{
+    height: 30px;
+}
+.right{
+    height: 30px;
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+}
+.startmenu{
+    position: absolute;
+    /* bottom: 30px; */
+    bottom: -700px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.7s ease-in;
+
+}
+.startmenu img{
+    height: 400px;
+    border-radius: 8px;
+}
+.main-div{
+    margin: 20px;
+ 
+}
+.icon-div{
+  
+ 
+}
+.iconchrome{
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 0px;
+    cursor: pointer;
+
+}
+.iconedge{
+    height: 30px;
+    margin-top: 15px;
+    margin-left:10px ;
+    cursor: pointer;
+
+}
+.iconrecycle{
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.iconcomputer{
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 9px;
+    cursor: pointer;
+
+}
+.iconstore{
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 9px;
+    cursor: pointer;
+
+}
+.headline-chrome{
+    color: #f3f3f3;
+   
+   
+}
+.headline-recycle{
+    color: #f3f3f3;
+   
+}
+.headline-edge{
+    color: #f3f3f3;
+    margin-left: 9px;
+   
+}
+
+.headline-computer{
+    color: #f3f3f3;
+
+   
+}
+
+.headline-store{
+    color: #f3f3f3;
+    margin-left: 8px;
+   
+}
+
+
