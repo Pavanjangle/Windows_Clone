@@ -5,4 +5,7 @@ Introducing a meticulously crafted Windows-inspired interface, meticulously desi
 
 ![Screenshot (279)](https://github.com/Pavanjangle/Windows_Clone/blob/main/windows%20clone%20ss%201.png?raw=true)
 
-![Screenshot (279)]()
+![Screenshot (279)](https://github.com/Pavanjangle/Windows_Clone/blob/main/windows%20clone%20ss%202.png?raw=true)
+
+#Thank You For Visiting My Project
+
